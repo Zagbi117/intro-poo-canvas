@@ -84,7 +84,7 @@ class Game {
             new Ball(canvas.width / 2, canvas.height / 2, 55, 10, 10, 'blue')
         ];
 
-        this.paddle1 = new Paddle(0, canvas.height / 2 - 100, 10, 100, true, 'orange'); // Paleta del jugador
+        this.paddle1 = new Paddle(0, canvas.height / 2 - 100, 10, 200, true, 'red'); // Paleta del jugador
         this.paddle2 = new Paddle(canvas.width - 10, canvas.height / 2 - 50, 10, 100, false, 'purple'); // Paleta IA
         this.keys = {}; // Para capturar las teclas
     }
